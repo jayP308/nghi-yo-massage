@@ -18,23 +18,14 @@ This app includes a landing page where user can search for a any book without be
 ## URL 
 Heroku Deployed Link:
 
-https://book-search-applicat-da020dda03be.herokuapp.com/
-
 Github Repository Link:
 
-https://github.com/jayP308/Book_Searching
+https://github.com/jayP308/nghi-yo-massage
 
 ## Screenshots
-Home Page (Not Logged In)
-
-<img src="./images/homepage-notloggedin.png" alt="Homepage Not Logged In" />
-
-Home Page (Logged In)
-
-<img src="./images/homepage-loggedin.png" alt="Homepage Logged In" />
 
 ## Contributors
-Junnel R. Padilla, UC Berkeley Bootcamp Modules, ChatGPT
+Junnel R. Padilla, ChatGPT
   
 ## License
 This project is licensed under [MIT](https://opensource.org/licenses/MIT)

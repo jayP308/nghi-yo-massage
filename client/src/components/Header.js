@@ -28,6 +28,19 @@ const Header = () => {
 
             <div>
                 <Button
+                href="/"
+                style={{
+                    fontSize: "20px",
+                    fontFamily: 'monospace',
+                    border: 'solid',
+                    padding: '7px',
+                    marginRight: '20px',
+                    color: 'black'
+                }}
+                >
+                Home
+                </Button>
+                <Button
                 href="/login"
                 style={{
                     fontSize: "20px",
@@ -50,7 +63,7 @@ const Header = () => {
                     marginRight: '20px'
                 }}
                 >
-                Signup
+                Sign up
                 </Button>
             </div>
             

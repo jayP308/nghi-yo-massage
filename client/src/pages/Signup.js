@@ -2,13 +2,10 @@ import React from 'react';
 import { CssVarsProvider } from '@mui/joy/styles';
 import Sheet from '@mui/joy/Sheet';
 import Typography from '@mui/joy/Typography';
-import FormControl from '@mui/joy/FormControl';
-import FormLabel from '@mui/joy/FormLabel';
-import Input from '@mui/joy/Input';
-import Button from '@mui/joy/Button';
 import Link from '@mui/joy/Link';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import logoOne from "../assets/images/website-logo1.jpg";
 
 
 
@@ -17,6 +14,7 @@ import Footer from '../components/Footer';
     <CssVarsProvider>
     <Header/>
       <main>
+        
         <Sheet
           sx={{
             width: 800,
@@ -29,71 +27,56 @@ import Footer from '../components/Footer';
             gap: 2,
             borderRadius: 'sm',
             boxShadow: 'md',
-            background: "transparent",
+            border: "none",
+            textAlign: 'center',
+            background: "linear-gradient(to top, #e5e5e5, #0a5d00, #333333)", // Add this line
           }}
           variant="outlined"
         >
+          <img src={logoOne} alt="website logo of lotus" />
           <div>
-            <Typography level="h4" component="h1">
-              <b>Welcome!</b>
+            <Typography 
+            level="h4" 
+            component="h1" 
+            sx={{ 
+              fontSize: "40px", marginBottom: "15px", color: '#1fc600', }}>
+              <b>Services</b>
             </Typography>
-            <Typography level="body-sm">New Member? Sign Up Now!.</Typography>
           </div>
-          <FormControl>
-            <FormLabel>First Name</FormLabel>
-            <Input
-              // html input attribute
-              name="firstname"
-              type="text"
-              placeholder="First Name"
-            />
-          </FormControl>
-          <FormControl>
-            <FormLabel>Last Name</FormLabel>
-            <Input
-              // html input attribute
-              name="lastname"
-              type="text"
-              placeholder="Last Name"
-            />
-          </FormControl>
-          <FormControl>
-            <FormLabel>Username</FormLabel>
-            <Input
-              // html input attribute
-              name="username"
-              type="text"
-              placeholder="Username"
-            />
-          </FormControl>
-          <FormControl>
-            <FormLabel>Email</FormLabel>
-            <Input
-              // html input attribute
-              name="email"
-              type="email"
-              placeholder="johndoe@email.com"
-            />
-          </FormControl>
-          <FormControl>
-            <FormLabel>Password</FormLabel>
-            <Input
-              // html input attribute
-              name="password"
-              type="password"
-              placeholder="password"
-            />
-          </FormControl>
-
-          <Button sx={{ mt: 1 /* margin top */ }}>Sign up</Button>
+          <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
+              <b>Swedish Massage</b>
+          </Typography>
+          <Typography sx={{ fontFamily: 'fantasy' }}>
+              <b> - $40.00</b>
+          </Typography>
+          <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
+              <b>Deep Tissue Massage</b>
+          </Typography>
+          <Typography sx={{ fontFamily: 'fantasy' }}>
+              <b> - $50.00</b>
+          </Typography>
+          <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
+              <b>Foot & Reflexology Massage</b>
+          </Typography>
+          <Typography sx={{ fontFamily: 'fantasy' }}>
+              <b> - $35.00</b>
+          </Typography>
+          <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
+              <b>Shiatsu Massage</b>
+          </Typography>
+          <Typography sx={{ fontFamily: 'fantasy' }}>
+              <b> - $40.00</b>
+          </Typography>
           <Typography
-            endDecorator={<Link href="/login">Log In</Link>}
+            endDecorator={<Link href="/contact">Contact Me Here</Link>}
             fontSize="sm"
             sx={{ alignSelf: 'center' }}
           >
-            Already have an account?
+            Questions? 
           </Typography>
         </Sheet>
+
+        
       </main>
       <Footer/>
     </CssVarsProvider>

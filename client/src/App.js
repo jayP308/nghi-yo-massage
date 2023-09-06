@@ -2,7 +2,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Services from "./pages/Services";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact"
 
@@ -20,7 +20,7 @@ function App() {
 
             <Route path="/login" element={<Login />} />
 
-            <Route path="/signup" element={<Signup />} />
+            <Route path="/services" element={<Services />} />
 
           </Routes>
         </>

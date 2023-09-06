@@ -50,18 +50,6 @@ import logoOne from "../assets/images/website-logo1.jpg";
               <b> - $40.00</b>
           </Typography>
           <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
-              <b>Deep Tissue Massage</b>
-          </Typography>
-          <Typography sx={{ fontFamily: 'fantasy' }}>
-              <b> - $50.00</b>
-          </Typography>
-          <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
-              <b>Foot & Reflexology Massage</b>
-          </Typography>
-          <Typography sx={{ fontFamily: 'fantasy' }}>
-              <b> - $35.00</b>
-          </Typography>
-          <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
               <b>Shiatsu Massage</b>
           </Typography>
           <Typography sx={{ fontFamily: 'fantasy' }}>

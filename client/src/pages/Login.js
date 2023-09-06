@@ -13,11 +13,7 @@ import Footer from '../components/Footer';
 
  const Login = () => {
   return (
-    <CssVarsProvider
-    sx={{
-        background: 'blue',
-    }}
-    >
+    <CssVarsProvider>
     <Header/>
       <main>
         <Sheet

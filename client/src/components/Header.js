@@ -1,31 +1,21 @@
 import React from "react";
-import { Button, Typography, } from "@material-ui/core";
-
+import { Button, Typography} from "@material-ui/core";
+import logoOne from "../assets/images/website-logo1.jpg";
 
 const Header = () => {
     return (
         <>
+        
             <div
             style={{
-                width: "100%",
-                height: "150px",
-                marginBottom: "25px",
-                background: "#228B22",
+                width: "75%",
+                margin: 'auto',
+                background: "linear-gradient(to top, #e5e5e5, #0a5d00, #e5e5e5)", // Add this line
+                backgroundSize: 'cover',
                 textAlign: 'center',
+                borderWidth: '5px',
             }}
             >
-
-            <Typography
-            style={{
-                fontSize: "45px",
-                fontFamily: 'monospace',
-                marginTop: '10px',
-                marginBottom: '10px',
-            }}
-            >
-            NGHI YO MASSAGE
-            </Typography>
-
             <div>
                 <Button
                 href="/"
@@ -35,23 +25,26 @@ const Header = () => {
                     border: 'solid',
                     padding: '7px',
                     marginRight: '20px',
-                    color: 'black'
+                    color: '#0eff00',
+                    border: 'none',
+                    borderRadius: '10px',
                 }}
                 >
                 Home
                 </Button>
                 <Button
-                href="/login"
+                href="/contact"
                 style={{
                     fontSize: "20px",
                     fontFamily: 'monospace',
                     border: 'solid',
                     padding: '7px',
                     marginRight: '20px',
-                    color: 'black'
+                    color: '#0eff00',
+                    border: 'none',
                 }}
                 >
-                Login
+                Contact
                 </Button>
                 <Button
                  href="/signup"
@@ -60,10 +53,12 @@ const Header = () => {
                     fontFamily: 'monospace',
                     border: 'solid',
                     padding: '7px',
-                    marginRight: '20px'
+                    marginRight: '20px',
+                    color: '#0eff00',
+                    border: 'none',
                 }}
                 >
-                Sign up
+                Services
                 </Button>
             </div>
             

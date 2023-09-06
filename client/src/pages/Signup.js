@@ -29,7 +29,7 @@ import logoOne from "../assets/images/website-logo1.jpg";
             boxShadow: 'md',
             border: "none",
             textAlign: 'center',
-            background: "linear-gradient(to top, #e5e5e5, #0a5d00, #333333)", // Add this line
+            background: "linear-gradient(to top, #e5e5e5, #0a5d00, #e5e5e5)", // Add this line
           }}
           variant="outlined"
         >

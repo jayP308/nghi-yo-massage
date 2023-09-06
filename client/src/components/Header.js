@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Typography} from "@material-ui/core";
-import logoOne from "../assets/images/website-logo1.jpg";
 
 const Header = () => {
     return (

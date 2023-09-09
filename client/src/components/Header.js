@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Typography} from "@material-ui/core";
+import { Button} from "@material-ui/core";
 
 const Header = () => {
     return (
@@ -21,7 +21,6 @@ const Header = () => {
                 style={{
                     fontSize: "20px",
                     fontFamily: 'monospace',
-                    border: 'solid',
                     padding: '7px',
                     marginRight: '20px',
                     color: '#0eff00',
@@ -36,7 +35,6 @@ const Header = () => {
                 style={{
                     fontSize: "20px",
                     fontFamily: 'monospace',
-                    border: 'solid',
                     padding: '7px',
                     marginRight: '20px',
                     color: '#0eff00',
@@ -50,7 +48,6 @@ const Header = () => {
                  style={{
                     fontSize: "20px",
                     fontFamily: 'monospace',
-                    border: 'solid',
                     padding: '7px',
                     marginRight: '20px',
                     color: '#0eff00',

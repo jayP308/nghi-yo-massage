@@ -9,7 +9,7 @@ import Contact from "./pages/Contact"
 
 function App() {
   return (
-   <div>
+   <div style={{  background: "linear-gradient(to top, #e5e5e5, #0a5d00, #e5e5e5)", height: "1250px"}}>
     <Router>
         <>
           <Routes>

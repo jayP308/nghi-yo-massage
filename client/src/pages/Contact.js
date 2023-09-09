@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from "../components/Header"
 import Sheet from '@mui/joy/Sheet';
+import logoImage from "../assets/images/website-logo1.jpg"
 
 const ContactMe = () => {
   const [message, setMessage] = useState('');
@@ -35,25 +36,37 @@ const ContactMe = () => {
             gap: 2,
             borderRadius: 'sm',
             boxShadow: 'md',
-            background: "transparent",
+            background: "linear-gradient(to top, #e5e5e5, gray, #e5e5e5)", // Add this line
           }}
           variant="outlined"
         >
+      <img 
+      src={logoImage} 
+      alt="green lotus logo" 
+      style={{
+        position: 'absolute',
+        top: 0,
+        right: 0,
+        marginTop: '180px',
+        marginRight: '30px',
+        width: '40%',
+      }}
+      />
       <div className='contact-me'>
-        <h1>Contact Me</h1>
+        <h1 style={{ fontWeight: "10px", fontSize: "45px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', textAlign: 'center', }}>Contact Me</h1>
         <form className='contact-form' onSubmit={handleSubmit}>
-          <p id='name'>Name:</p>
-          <input type='text' id='name-input' placeholder='Type Here......'/>
+          <p id='name' style={{fontSize: "20px"}}>Full Name:</p>
+          <input type='text' id='name-input' placeholder='Type Here......' style={{ width: '50%', height: '25px', fontSize: '20px'}}/>
 
-          <p id='name'>Phone Number:</p>
-          <input type='number' id='name-input' placeholder='Type Here......'/>
+          <p id='name' style={{fontSize: "20px"}}>Phone Number:</p>
+          <input type='phone' id='name-input' placeholder='Type Here......' style={{ width: '50%', height: '25px', fontSize: '20px'}}/>
 
-          <p id='email'>Email Address:</p>
-          <input type='email' id='email-input' placeholder='Type Here......' required/>
+          <p id='email' style={{fontSize: "20px"}}>Email Address:</p>
+          <input type='email' id='email-input' placeholder='Type Here......' required style={{ width: '50%', height: '25px', fontSize: '20px'}}/>
 
           <p id='email-error' className='error-message'></p>
 
-          <p id='message'>Message:</p>
+          <p id='message' style={{fontSize: "20px"}}>Message:</p>
           <textarea
             type='text'
             id='message-input'
@@ -61,15 +74,13 @@ const ContactMe = () => {
             required
             onBlur={handleBlur}
             onChange={(e) => setMessage(e.target.value)}
-            sx={{
-                width: "100%",
-            }}
+            style={{ width: '75%', height: '150px', fontSize: '15px', resize: 'none'}}
           />
 
           {isMessageEmpty && <p className='error-message'>Message cannot be empty</p>}
 
           <p></p>
-          <button type='submit' id='submit-button'>Submit</button>
+          <button type='submit' id='submit-button' style={{ fontSize: '25px', border: "solid", borderColor: 'green'}}>Submit</button>
         </form>
       </div>
     </Sheet>

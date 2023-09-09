@@ -8,8 +8,9 @@ const Header = () => {
             <div
             style={{
                 width: "75%",
+                height: "75px",
                 margin: 'auto',
-                background: "linear-gradient(to top, #e5e5e5, #0a5d00, #e5e5e5)", // Add this line
+                background: "linear-gradient(to top, #e5e5e5, green, #e5e5e5)", // Add this line
                 backgroundSize: 'cover',
                 textAlign: 'center',
                 borderWidth: '5px',
@@ -19,11 +20,13 @@ const Header = () => {
                 <Button
                 href="/"
                 style={{
-                    fontSize: "20px",
                     fontFamily: 'monospace',
                     padding: '7px',
                     marginRight: '20px',
-                    color: '#0eff00',
+                    fontWeight: "10px", 
+                    fontSize: "30px", 
+                    WebkitTextStroke: '.75px #1fc600', 
+                    WebkitTextFillColor: 'black',
                     border: 'none',
                     borderRadius: '10px',
                 }}
@@ -33,11 +36,13 @@ const Header = () => {
                 <Button
                 href="/contact"
                 style={{
-                    fontSize: "20px",
                     fontFamily: 'monospace',
                     padding: '7px',
                     marginRight: '20px',
-                    color: '#0eff00',
+                    fontWeight: "10px", 
+                    fontSize: "30px", 
+                    WebkitTextStroke: '.75px #1fc600', 
+                    WebkitTextFillColor: 'black',
                     border: 'none',
                 }}
                 >
@@ -46,11 +51,13 @@ const Header = () => {
                 <Button
                  href="/services"
                  style={{
-                    fontSize: "20px",
                     fontFamily: 'monospace',
                     padding: '7px',
                     marginRight: '20px',
-                    color: '#0eff00',
+                    fontWeight: "10px", 
+                    fontSize: "30px", 
+                    WebkitTextStroke: '.75px #1fc600', 
+                    WebkitTextFillColor: 'black',
                     border: 'none',
                 }}
                 >

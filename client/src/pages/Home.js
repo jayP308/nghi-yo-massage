@@ -1,19 +1,20 @@
 import React from "react";
 import Header from "../components/Header";
 import Sheet from "@mui/joy/Sheet/Sheet";
-import logoImage from "../assets/images/website-logo1.jpg";
+import logoImage from "../assets/images/updated-logo4.png";
+import subHeader from "../assets/images/subheader-massage.png";
 import { Typography } from "@material-ui/core";
+import { green } from "@material-ui/core/colors";
 
 const Home = () => {
     return (
         <>
             <Header/>
 
-            <div style={{ display: 'flex' }}>
+            <div style={{ display: 'flex', justifyContent: "center", alignItems: "center", margin: 'auto',}}>
                 <Sheet
                     sx={{
                     width: "30%",
-                    maxHeight: "275px",
                     mx: 'auto', // margin left & right
                     my: 4, // margin top & bottom
                     py: 3, // padding top & bottom
@@ -30,18 +31,18 @@ const Home = () => {
                     sx={{
                     width: "50%",
                     mx: 'auto', // margin left & right
-                    my: 4, // margin top & bottom
+                    my: 10, // margin top & bottom
                     py: 3, // padding top & bottom
                     px: 2, // padding left & right
                     display: 'flex',
                     flexDirection: 'column',
                     gap: 2,
                     borderRadius: 'sm',
-                    boxShadow: 'md',
-                    background: "linear-gradient(to top, #e5e5e5, gray, #e5e5e5)", // Add this line
-                    textAlign:'center'
+                    background: "linear-gradient(to top, green, #e5e5e5, grey)", // Add this line
+                    textAlign:'center',
+                    border: 'solid',
+                    borderRadius: '10PX'
                 }}
-                variant="outlined"
                 >
                     <Typography style={{ fontWeight: "10px", fontSize: "45px", }}>About Me</Typography>
                     <Typography style={{ fontSize: '20px', fontFamily: 'monospace', padding:'20px',}}>

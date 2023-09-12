@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from "../components/Header"
 import Sheet from '@mui/joy/Sheet';
-import logoImage from "../assets/images/website-logo1.jpg"
+import logoImage from "../assets/images/updated-logo4.png"
 
 const ContactMe = () => {
   const [message, setMessage] = useState('');
@@ -36,7 +36,7 @@ const ContactMe = () => {
             gap: 2,
             borderRadius: 'sm',
             boxShadow: 'md',
-            background: "linear-gradient(to top, #e5e5e5, gray, #e5e5e5)", // Add this line
+            background: "linear-gradient(to top, green, #e5e5e5, grey)", // Add this line
           }}
           variant="outlined"
         >

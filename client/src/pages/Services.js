@@ -5,7 +5,7 @@ import Typography from '@mui/joy/Typography';
 import Link from '@mui/joy/Link';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import logoOne from "../assets/images/website-logo1.jpg";
+import logoOne from "../assets/images/updated-logo4.png";
 
 
 
@@ -29,7 +29,7 @@ import logoOne from "../assets/images/website-logo1.jpg";
             boxShadow: 'md',
             border: "none",
             textAlign: 'center',
-            background: "linear-gradient(to top, #e5e5e5, gray, #e5e5e5)", // Add this line
+            background: "linear-gradient(to top, green, #e5e5e5, grey)", // Add this line
           }}
           variant="outlined"
         >
@@ -63,20 +63,18 @@ import logoOne from "../assets/images/website-logo1.jpg";
               <b>Add-ons</b>
           </Typography>
           <Typography sx={{ fontSize: "20px" }}>
-              <b>( Deep Tissue Massage, Reflexology, and Scalp Massage  )</b>
+              <b>( Deep Tissue Massage, Reflexology, and Scalp Massage )</b>
           </Typography>
-          <Typography
+        </Sheet>
+        <Typography
             endDecorator={<Link href="/contact">Contact Me Here</Link>}
             fontSize="sm"
-            sx={{ alignSelf: 'center' }}
+            sx={{ alignSelf: 'center', justifyContent: 'center', marginBottom: '20px', fontFamily: 'monospace', fontSize: '15px', fontWeight: 'solid'}}
           >
             Questions? 
           </Typography>
-        </Sheet>
-
-        
       </main>
-      <Footer/>
+      
     </CssVarsProvider>
   );
 }

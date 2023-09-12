@@ -33,27 +33,37 @@ import logoOne from "../assets/images/website-logo1.jpg";
           }}
           variant="outlined"
         >
-          <img src={logoOne} alt="website logo of lotus" />
-          <div>
-            <Typography 
+           <Typography 
             level="h4" 
             component="h1" 
             sx={{ 
-              fontSize: "40px", marginBottom: "15px", color: '#1fc600', }}>
+              fontSize: "40px", marginBottom: "15px", WebkitTextStroke: '1px black', WebkitTextFillColor: '#1fc600', }}>
               <b>Services</b>
             </Typography>
+          <img src={logoOne} alt="website logo of lotus" style={{ width: '50%', margin: "auto",}} />
+          <div>
+           
           </div>
           <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
-              <b>Swedish Massage</b>
+              <b>Modalities</b>
           </Typography>
-          <Typography sx={{ fontFamily: 'fantasy' }}>
-              <b> - $40.00</b>
+          <Typography sx={{ fontSize: "20px" }}>
+              <b>Includes: </b>
+          </Typography>
+          <Typography sx={{ fontSize: "20px" }}>
+              <b>( Sports Massage, Shiatsu Massage, and Reflexology )</b>
           </Typography>
           <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
-              <b>Shiatsu Massage</b>
+              <b>Chair Massage</b>
           </Typography>
-          <Typography sx={{ fontFamily: 'fantasy' }}>
-              <b> - $40.00</b>
+          <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
+              <b>Foot Massage</b>
+          </Typography>
+          <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
+              <b>Add-ons</b>
+          </Typography>
+          <Typography sx={{ fontSize: "20px" }}>
+              <b>( Deep Tissue Massage, Reflexology, and Scalp Massage  )</b>
           </Typography>
           <Typography
             endDecorator={<Link href="/contact">Contact Me Here</Link>}

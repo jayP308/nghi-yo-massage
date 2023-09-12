@@ -13,18 +13,15 @@ const Home = () => {
                 <Sheet
                     sx={{
                     width: "30%",
+                    maxHeight: "275px",
                     mx: 'auto', // margin left & right
                     my: 4, // margin top & bottom
                     py: 3, // padding top & bottom
                     px: 2, // padding left & right
                     display: 'flex',
                     flexDirection: 'column',
-                    gap: 2,
-                    borderRadius: 'sm',
-                    boxShadow: 'md',
-                    background: "linear-gradient(to top, #e5e5e5, gray, #e5e5e5)", // Add this line
+                    background: 'transparent',
                 }}
-                variant="outlined"
                 >
                     <img src={logoImage} alt="green lotus with tag nghi yo massage" />
                 </Sheet>

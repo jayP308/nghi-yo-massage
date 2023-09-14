@@ -35,7 +35,7 @@ const Header = () => {
                 Home
                 </Button>
                 <Button
-                href="/"
+                href="/appointment"
                 style={{
                     fontFamily: 'monospace',
                     padding: '7px',

@@ -38,21 +38,21 @@ const Home = () => {
                     flexDirection: 'column',
                     gap: 2,
                     borderRadius: 'sm',
-                    background: "linear-gradient(to top, green, #e5e5e5, grey)", // Add this line
+                    background: "#c0c0c0", // Add this line
                     textAlign:'center',
                     border: 'solid',
                     borderRadius: '10PX'
                 }}
                 >
-                    <Typography style={{ fontWeight: "10px", fontSize: "45px", }}>About Me</Typography>
+                    <Typography style={{ fontWeight: "10px", fontSize: "45px", }}>Nghi Vo</Typography>
+                    <Typography style={{ fontWeight: "10px", fontSize: "30px", }}>(Massage Therapist Student)</Typography>
+                    
                     <Typography style={{ fontSize: '20px', fontFamily: 'monospace', padding:'20px',}}>
-                    Hello! My name is Nghi Vo, like your "knee" and you can't forget me because Im part of you!<br></br>
-                    <br></br>
                     My journey into massage therapy has been both fascinating and fulfilling. 
                     As a student in this field, I'm passionate about using the power of touch to help people find relief from physical discomfort and stress. 
                     Learning the art of massage has given me a deep appreciation for the body's ability to heal itself and the importance of maintaining a mind-body connection. 
                     I look forward to using my skills to make a positive impact on the lives of others, one soothing massage at a time.
-                        </Typography>
+                    </Typography>
                 </Sheet>
             </div>
         </>

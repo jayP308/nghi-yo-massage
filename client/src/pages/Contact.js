@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Header from "../components/Header"
 import Sheet from '@mui/joy/Sheet';
-import logoImage from "../assets/images/updated-logo4.png"
+import Footer from "../components/Footer";
 
-const ContactMe = () => {
+const Contact = () => {
   const [message, setMessage] = useState('');
   const [isMessageEmpty, setIsMessageEmpty] = useState(false);
 
@@ -40,18 +40,7 @@ const ContactMe = () => {
           }}
           variant="outlined"
         >
-      <img 
-      src={logoImage} 
-      alt="green lotus logo" 
-      style={{
-        position: 'absolute',
-        top: 0,
-        right: 0,
-        marginTop: '180px',
-        marginRight: '30px',
-        width: '40%',
-      }}
-      />
+     
       <div className='contact-me'>
         <h1 style={{ fontWeight: "10px", fontSize: "45px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', textAlign: 'center', }}>Contact Me</h1>
         <form className='contact-form' onSubmit={handleSubmit}>
@@ -84,9 +73,10 @@ const ContactMe = () => {
         </form>
       </div>
     </Sheet>
+    <Footer/>
     </main>
     </div>
   );
 };
 
-export default ContactMe;
+export default Contact;

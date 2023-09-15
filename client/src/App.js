@@ -5,12 +5,13 @@ import Services from "./pages/Services";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Appointment from "./pages/Appointment";
+import './App.css';
 
 
 
 function App() {
   return (
-   <div>
+   <div className="App">
     <Router>
         <>
           <Routes>
@@ -21,11 +22,12 @@ function App() {
 
             <Route path="/contact" element={<Contact/>} />
 
-            <Route path="/services" element={<Services />} />
+            <Route path="/services" element={<Services/>} />
 
           </Routes>
         </>
       </Router>
+
    </div>
   );
 };

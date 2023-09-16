@@ -8,10 +8,10 @@ const Header = () => {
         
             <div
             style={{
-                width: "75%",
+                width: '75%',
                 height: "75px",
                 margin: 'auto',
-                background: "linear-gradient(to top, green, #e5e5e5, grey)", // Add this line
+                background: "linear-gradient(to top, green, rgba(190, 190, 161, 0.616), rgba(182, 182, 158, 0.671))",
                 backgroundSize: 'cover',
                 textAlign: 'center',
                 borderWidth: '5px',

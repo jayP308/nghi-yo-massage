@@ -5,6 +5,7 @@ import Typography from '@mui/joy/Typography';
 import Link from '@mui/joy/Link';
 import Header from '../components/Header';
 import logoOne from "../assets/images/updated-logo4.png";
+import Footer from '../components/Footer';
 
 
 
@@ -99,6 +100,7 @@ import logoOne from "../assets/images/updated-logo4.png";
             Questions? 
           </Typography>
         </Sheet>
+        <Footer/>
       </main>
       
     </CssVarsProvider>

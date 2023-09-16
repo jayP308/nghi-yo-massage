@@ -5,9 +5,9 @@ import { Typography } from '@material-ui/core';
 
 const Footer = () => {
   return (
-    <Box sx={{ width: "100%",  }}>
+    <Box sx={{ width: "100%", background: 'transparent' }}>
       <BottomNavigation>
-        <Typography>Made By Junnel R. Padilla ©</Typography>
+        <Typography>Made by Junnel R. Padilla ©</Typography>
       </BottomNavigation>
     </Box>
   );

@@ -15,6 +15,8 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import Footer from '../components/Footer';
+import dividerImg from '../assets/images/divider.png';
+import personalDiv from '../assets/images/personal-divider1.png';
 
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -130,12 +132,14 @@ const Home = () => {
                     Learning the art of massage has given me a deep appreciation for the body's ability to heal itself and the importance of maintaining a mind-body connection. 
                     I look forward to using my skills to make a positive impact on the lives of others, one soothing massage at a time.
                     </Typography>
+                    <img src={dividerImg} alt='golden line with diamond shape in the middle' style={{width: '100%', height: 'auto'}} />
                 </Sheet>
             </div>
+            <hr/>
             <div
              style={{
               display: 'flex',
-              width: "85%",
+              width: "95%",
               margin: 'auto',
               mx: 'auto', // margin left & right
               my: 4, // margin top & bottom
@@ -240,7 +244,7 @@ const Home = () => {
               </Box>
 
               <Box sx={{ 
-                  width: "50%", 
+                  width: "45%", 
                   flexGrow: 1, 
                   margin: 'auto',
                   marginTop: "50px",
@@ -287,8 +291,8 @@ const Home = () => {
                                   width: '100%',
                                   textAlign: "center",
                                   fontFamily: 'monospace',
-                                  fontSize: '20px',
-                                  padding: '10px',
+                                  fontSize: '15px',
+                                  padding: '5px',
                               }}
                               ><span
                                 style={{
@@ -297,7 +301,9 @@ const Home = () => {
                                   fontSize: '30px',
                                 }}
                               >{step.label}</span>
+                               <img src={dividerImg} alt='golden line with diamond shape in the middle' style={{width: '100%', height: 'auto', padding: '5px'}} />
                                 {step.descriptions}
+                              
                               </Box>
                           ) : null}
                           </div>

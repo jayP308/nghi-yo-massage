@@ -6,6 +6,7 @@ import Link from '@mui/joy/Link';
 import Header from '../components/Header';
 import logoOne from "../assets/images/updated-logo4.png";
 import Footer from '../components/Footer';
+import dividerImg from '../assets/images/divider.png';
 
 
 
@@ -35,6 +36,7 @@ import Footer from '../components/Footer';
           }}
           variant="outlined"
         > <h1 style={{ fontWeight: "10px", fontSize: "45px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>Services</h1></Sheet>
+
         <Sheet
           sx={{
             width: 800,
@@ -56,9 +58,8 @@ import Footer from '../components/Footer';
           variant="outlined"
         >
            
-          <img src={logoOne} alt="website logo of lotus" style={{ width: '50%', margin: "auto",}} />
           <div>
-           
+            <img src={logoOne} alt="website logo of lotus" style={{ width: '50%', margin: "auto",}} />
           </div>
           <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', color: 'black' }}>
               <b>Modalities</b>
@@ -92,15 +93,17 @@ import Footer from '../components/Footer';
                 <b> Scalp Massage</b>
             </Typography>
           </div>
-          <Typography
+          <img src={dividerImg} alt='golden line with diamond shape in the middle' style={{width: '100%', height: 'auto', padding: '15px'}} />
+          
+        </Sheet>
+        <Typography
             endDecorator={<Link href="/contact" style={{ textDecoration: 'underline'}}>Contact Me Here</Link>}
             fontSize="sm"
-            sx={{ alignSelf: 'center', justifyContent: 'center', fontSize: "15px",}}
+            style={{ alignSelf: 'center', justifyContent: 'center', fontSize: "15px", padding: '15px'}}
           >
             Questions? 
           </Typography>
-        </Sheet>
-        <Footer/>
+          <Typography style={{padding: "15px", textAlign: 'center'}}>Made by Junnel R. Padilla ©</Typography>
       </main>
       
     </CssVarsProvider>

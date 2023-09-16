@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, Link} from '@mui/joy';
 import Header from "../components/Header"
 import Sheet from '@mui/joy/Sheet';
+import Footer from '../components/Footer';
 
 
 const Appointment = () => {
@@ -34,12 +35,11 @@ const Appointment = () => {
       </div>
     </Sheet>
     <Typography
-        endDecorator={<Link href="https://www.instagram.com/nghi_yo_massage/s">Click here!</Link>}
-        fontSize="sm"
-        sx={{ alignSelf: 'center', justifyContent: 'center', marginBottom: '20px', fontFamily: 'monospace', fontSize: '15px', fontWeight: 'solid'}}
-        >
-        Follow my instagram for updates!
+      sx={{ textAlign: 'center', marginBottom: '20px', fontFamily: 'monospace', fontSize: '15px', fontWeight: 'solid'}}
+      >
+      Follow my Social Media for updates!<br/>
     </Typography>
+    <Footer/>
     </main>
     </div>
   );

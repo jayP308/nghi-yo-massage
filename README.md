@@ -13,7 +13,7 @@
 This app is use contact massage therapist, be able to see services that is being offered.
   
 ## Description
-This app includes a landing page where user can search for a any book without being logged in but wont be able to save the book. Users are free to signup and will serve the same function as the homepage where searching for books, the only difference is that once user is logged in, they are able to save books that will be stored in a page called "Saved Books". Not only logged in user can save books, they are able to delete them. Each book that is being saved is attached to the logged in users only and will only be visible to the user. Lastly, a logout button that allows users to exit out of their account.
+This app includes a landing page users can explore a header that includes a Home and Services page, Home page includes the massage therapist goals with customized logo on top of it. There are also numbers of different type of massaged and gives a brief decription of what each massages are and a footer that has copyright tag and link to social media. On the Services page, can be seen the customized logo and the type of services that can the massage therapist offers and a question tag on the bottom with the link to the massage therapist instagram page.
   
 ## URL 
 Heroku Deployed Link:

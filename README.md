@@ -18,6 +18,8 @@ This app includes a landing page users can explore a header that includes a Home
 ## URL
 Deployed Link:
 
+https://jayp308.github.io/nghi-yo-massage/
+
 Github Repository Link:
 
 https://github.com/jayP308/nghi-yo-massage

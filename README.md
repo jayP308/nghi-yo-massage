@@ -14,9 +14,9 @@ This app is use contact massage therapist, be able to see services that is being
   
 ## Description
 This app includes a landing page users can explore a header that includes a Home and Services page, Home page includes the massage therapist goals with customized logo on top of it. There are also numbers of different type of massaged and gives a brief decription of what each massages are and a footer that has copyright tag and link to social media. On the Services page, can be seen the customized logo and the type of services that can the massage therapist offers and a question tag on the bottom with the link to the massage therapist instagram page.
-  
-## URL 
-Heroku Deployed Link:
+
+## URL
+Deployed Link:
 
 Github Repository Link:
 

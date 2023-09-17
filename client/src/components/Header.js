@@ -1,6 +1,6 @@
 import React from "react";
+import { Button } from "@material-ui/core";
 
-import { Button} from "@material-ui/core";
 
 const Header = () => {
     return (
@@ -21,10 +21,11 @@ const Header = () => {
             <div>
                 <Button
                 href="/"
+                value='0'
                 style={{
                     fontFamily: 'monospace',
                     padding: '7px',
-                    marginRight: '20px',
+                    margin: 'auto',
                     fontWeight: "10px", 
                     fontSize: "30px", 
                     WebkitTextStroke: '.75px #1fc600', 
@@ -33,9 +34,9 @@ const Header = () => {
                     borderRadius: '10px',
                 }}
                 >
-                Home
+                Home  |
                 </Button>
-                <Button
+                {/* <Button
                 href="/appointment"
                 style={{
                     fontFamily: 'monospace',
@@ -50,8 +51,8 @@ const Header = () => {
                 }}
                 >
                 Appointment
-                </Button>
-                <Button
+                </Button> */}
+                {/* <Button
                 href="/contact"
                 style={{
                     fontFamily: 'monospace',
@@ -65,7 +66,7 @@ const Header = () => {
                 }}
                 >
                 Contact
-                </Button>
+                </Button> */}
                 <Button
                  href="/services"
                  style={{
@@ -82,7 +83,7 @@ const Header = () => {
                 Services
                 </Button>
             </div>
-            
+
             </div>
         </>
     );

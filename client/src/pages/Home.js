@@ -1,9 +1,7 @@
 import React from "react";
-import {useRef} from 'react';
 import Header from "../components/Header";
 import Sheet from "@mui/joy/Sheet/Sheet";
 import logoImage from "../assets/images/updated-logo4.png";
-import subHeader from "../assets/images/subheader-massage.png";
 import { Typography } from "@material-ui/core";
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -16,7 +14,6 @@ import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import Footer from '../components/Footer';
 import dividerImg from '../assets/images/divider.png';
-import personalDiv from '../assets/images/personal-divider1.png';
 
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -62,8 +59,6 @@ const images = [
 
 const Home = () => {
 
-    const swipeableViewsRef = useRef(null);
-
     const theme = useTheme();
     const [activeStep, setActiveStep] = React.useState(0);
     const maxSteps = images.length;
@@ -79,12 +74,6 @@ const Home = () => {
   
     const handleStepChange = (step) => {
       setActiveStep(step);
-    };
-
-    const stopAutoPlay = () => {
-      if (swipeableViewsRef.current) {
-        swipeableViewsRef.current.stopAutoPlay();
-      }
     };
     return (
     <>
@@ -135,7 +124,7 @@ const Home = () => {
                     <img src={dividerImg} alt='golden line with diamond shape in the middle' style={{width: '100%', height: 'auto'}} />
                 </Sheet>
             </div>
-            <hr/>
+            <hr style={{width: '65%', border: 'double', color: 'green', margin: "auto"}}/>
             <div
              style={{
               display: 'flex',
@@ -172,7 +161,6 @@ const Home = () => {
                         display: 'flex',
                         alignItems: 'center',
                         height: 50,
-                        padding: "10px",
                         margin: 'auto',
                         background: "linear-gradient(to bottom, green, rgba(190, 190, 161, 0.616), rgba(182, 182, 158, 0.671))",
                         justifyContent: 'center',
@@ -261,7 +249,6 @@ const Home = () => {
                       display: 'flex',
                       alignItems: 'center',
                       height: 50,
-                      padding: "10px",
                       margin: 'auto',
                       background: "linear-gradient(to bottom, green, rgba(190, 190, 161, 0.616), rgba(182, 182, 158, 0.671))",
                       justifyContent: 'center',
@@ -324,6 +311,7 @@ const Home = () => {
                   />
               </Box>
             </div>
+            <hr style={{width: '65%', border: 'double', color: 'green', margin: "auto"}}/>
             <Footer/>
         </>
     );

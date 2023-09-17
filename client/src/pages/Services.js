@@ -5,7 +5,6 @@ import Typography from '@mui/joy/Typography';
 import Link from '@mui/joy/Link';
 import Header from '../components/Header';
 import logoOne from "../assets/images/updated-logo4.png";
-import Footer from '../components/Footer';
 import dividerImg from '../assets/images/divider.png';
 
 
@@ -15,28 +14,6 @@ import dividerImg from '../assets/images/divider.png';
     <CssVarsProvider>
     <Header/>
       <main>
-      <Sheet
-          sx={{
-            width: 700,
-            mx: 'auto', // margin left & right
-            my: 4, // margin top & bottom
-            py: 1, // padding top & bottom
-            px: 1, // padding left & right
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 2,
-            borderRadius: 'sm',
-            boxShadow: 'md',
-            border: 'double',
-            borderColor: 'rgba(10, 92, 51, 0.699)',
-            borderWidth: "5px",
-            textAlign: 'center',
-            backgroundColor: 'rgba(182, 182, 158, 0.671)',
-            
-          }}
-          variant="outlined"
-        > <h1 style={{ fontWeight: "10px", fontSize: "45px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>Services</h1></Sheet>
-
         <Sheet
           sx={{
             width: 800,
@@ -57,7 +34,8 @@ import dividerImg from '../assets/images/divider.png';
           }}
           variant="outlined"
         >
-           
+          <h1 style={{ fontWeight: "10px", fontSize: "45px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>Services</h1>
+          <hr style={{width: '65%', border: 'double', color: 'green', margin: "auto", marginBottom: '15px'}}/>
           <div>
             <img src={logoOne} alt="website logo of lotus" style={{ width: '50%', margin: "auto",}} />
           </div>
@@ -97,7 +75,7 @@ import dividerImg from '../assets/images/divider.png';
           
         </Sheet>
         <Typography
-            endDecorator={<Link href="/contact" style={{ textDecoration: 'underline'}}>Contact Me Here</Link>}
+            endDecorator={<Link href="https://www.instagram.com/nghi_yo_massage/" style={{ textDecoration: 'underline'}}>Click Here!</Link>}
             fontSize="sm"
             style={{ alignSelf: 'center', justifyContent: 'center', fontSize: "15px", padding: '15px'}}
           >

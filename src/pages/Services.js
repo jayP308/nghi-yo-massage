@@ -80,8 +80,8 @@ import dividerImg from '../assets/images/divider.png';
             style={{ alignSelf: 'center', justifyContent: 'center', fontSize: "15px", padding: '15px'}}
           >
             Questions? 
-          </Typography>
-          <Typography style={{padding: "15px", textAlign: 'center'}}>Made by Junnel R. Padilla ©</Typography>
+        </Typography>
+        <Typography style={{padding: "15px", textAlign: 'center'}}>Made by Junnel R. Padilla ©</Typography>
       </main>
       
     </CssVarsProvider>

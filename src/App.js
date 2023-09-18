@@ -7,8 +7,6 @@ import Contact from "./pages/Contact";
 import Appointment from "./pages/Appointment";
 import './App.css';
 
-
-
 function App() {
   return (
    <div className="App">
@@ -16,13 +14,13 @@ function App() {
         <>
           <Routes>
 
-            <Route path="/" component={<Home/>} />
+            <Route path="/nghi-yo-massage" element={<Home/>} />
 
             <Route path="/appointment" component={<Appointment/>} />
 
             <Route path="/contact" component={<Contact/>} />
 
-            <Route path="/services" component={<Services/>} />
+            <Route path="/services" element={<Services/>} />
 
           </Routes>
         </>

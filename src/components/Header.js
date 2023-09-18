@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@material-ui/core";
 
 const Header = () => {
     return (
@@ -7,7 +8,7 @@ const Header = () => {
             <div
             style={{
                 width: '75%',
-                height: "50px",
+                height: "75px",
                 margin: 'auto',
                 background: "linear-gradient(to top, green, rgba(190, 190, 161, 0.616), rgba(182, 182, 158, 0.671))",
                 backgroundSize: 'cover',
@@ -17,12 +18,12 @@ const Header = () => {
             }}
             >
             <div>
-                <a
-                href="/"
+                <Button
+                href="/nghi-yo-massage"
                 value='0'
                 style={{
                     fontFamily: 'monospace',
-                    padding: '25px',
+                    padding: '7px',
                     margin: 'auto',
                     fontWeight: "10px", 
                     fontSize: "30px", 
@@ -33,8 +34,8 @@ const Header = () => {
                     textDecoration: 'none',
                 }}
                 >
-                Home  |
-                </a>
+                Home
+                </Button>
                 {/* <Button
                 href="/appointment"
                 style={{
@@ -66,7 +67,7 @@ const Header = () => {
                 >
                 Contact
                 </Button> */}
-                <a
+                {/* <a
                  href="/services"
                  style={{
                     fontFamily: 'monospace',
@@ -81,7 +82,7 @@ const Header = () => {
                 }}
                 >
                 Services
-                </a>
+                </a> */}
             </div>
 
             </div>

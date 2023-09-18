@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <Box>
       <BottomNavigation style={{display: 'block', background: 'transparent', height: '150px', margin: 'auto', textAlign: 'center', padding: '15px'}}>
-      <Typography>Follow My Social Media!</Typography>
+      <Typography>Follow my Social Media for more updates!</Typography>
         <div style={{ display: 'flex', margin: 'auto', textAlign: 'center', width: '10%'}}>
             <a href='https://www.instagram.com/nghi_yo_massage/' >
               <img src={instaLogo} alt="pink intagram logo" style={{ width: '30%', marginTop: '10px',}}/>

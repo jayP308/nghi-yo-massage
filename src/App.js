@@ -16,7 +16,7 @@ function App() {
         <>
           <Routes>
 
-            <Route path="/nghi-yo-massage" element={<Home/>} />
+            <Route path="/" element={<Home/>} />
 
             <Route path="/appointment" element={<Appointment/>} />
 

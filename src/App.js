@@ -14,13 +14,13 @@ function App() {
         <>
           <Routes>
 
-            <Route path="/" element={<Home/>} />
+            <Route path="/" component={<Home />} />
 
             <Route path="/appointment" component={<Appointment/>} />
 
             <Route path="/contact" component={<Contact/>} />
 
-            <Route path="/services" element={<Services/>} />
+            <Route path="/services" component={<Services />} />
 
           </Routes>
         </>

@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "@material-ui/core";
-
 
 const Header = () => {
     return (
@@ -9,7 +7,7 @@ const Header = () => {
             <div
             style={{
                 width: '75%',
-                height: "75px",
+                height: "50px",
                 margin: 'auto',
                 background: "linear-gradient(to top, green, rgba(190, 190, 161, 0.616), rgba(182, 182, 158, 0.671))",
                 backgroundSize: 'cover',
@@ -19,12 +17,12 @@ const Header = () => {
             }}
             >
             <div>
-                <Button
-                href="/nghi-yo-massage"
+                <a
+                href="/"
                 value='0'
                 style={{
                     fontFamily: 'monospace',
-                    padding: '7px',
+                    padding: '25px',
                     margin: 'auto',
                     fontWeight: "10px", 
                     fontSize: "30px", 
@@ -32,10 +30,11 @@ const Header = () => {
                     WebkitTextFillColor: 'black',
                     border: 'none',
                     borderRadius: '10px',
+                    textDecoration: 'none',
                 }}
                 >
                 Home  |
-                </Button>
+                </a>
                 {/* <Button
                 href="/appointment"
                 style={{
@@ -67,21 +66,22 @@ const Header = () => {
                 >
                 Contact
                 </Button> */}
-                <Button
+                <a
                  href="/services"
                  style={{
                     fontFamily: 'monospace',
                     padding: '7px',
-                    marginRight: '20px',
+                    marginRight: '10px',
                     fontWeight: "10px", 
                     fontSize: "30px", 
                     WebkitTextStroke: '.75px #1fc600', 
                     WebkitTextFillColor: 'black',
                     border: 'none',
+                    textDecoration: 'none'
                 }}
                 >
                 Services
-                </Button>
+                </a>
             </div>
 
             </div>

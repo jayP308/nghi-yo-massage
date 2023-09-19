@@ -117,10 +117,10 @@ const Home = () => {
                     color: "black",
                 }}
                 >
-                    <Typography style={{ fontWeight: "10px", fontSize: "45px", }}>Nghi Vo</Typography>
-                    <Typography style={{ fontWeight: "10px", fontSize: "25px", }}>(Massage Therapist Student)</Typography>
+                    <Typography style={{ fontWeight: "10px", fontSize: "35px", }}>Nghi Vo</Typography>
+                    <Typography style={{ fontWeight: "10px", fontSize: "20px", }}>(Massage Therapist Student)</Typography>
                     
-                    <Typography style={{ fontSize: '20px', fontFamily: 'monospace', padding:'20px', fontStyle: 'oblique'}}>
+                    <Typography style={{ fontSize: '15px', fontFamily: 'monospace', padding:'10px', fontStyle: 'oblique'}}>
                     My journey into massage therapy has been both fascinating and fulfilling. 
                     As a student in this field, I'm passionate about using the power of touch to help people find relief from physical discomfort and stress. 
                     Learning the art of massage has given me a deep appreciation for the body's ability to heal itself and the importance of maintaining a mind-body connection. 
@@ -186,21 +186,22 @@ const Home = () => {
                             
                               <Box
                               sx={{
-                                  height: 450,
+                                  height: 375,
                                   display: 'block',
                                   maxWidth: 800,
                                   overflow: 'hidden',
                                   width: '100%',
                                   textAlign: "center",
                                   fontFamily: 'monospace',
-                                  fontSize: '15px',
+                                  fontSize: '13px',
                                   padding: '5px',
                               }}
                               ><span
                                 style={{
                                   display: "block",
                                   padding: "20px",
-                                  fontSize: '25px',
+                                  fontSize: '20px',
+                                  fontStyle: 'bold',
                                 }}
                               >{step.label}</span>
                                <img src={dividerImg} alt='golden line with diamond shape in the middle' style={{width: '100%', height: 'auto', padding: '5px'}} />
@@ -297,28 +298,28 @@ const Home = () => {
                 }}
                 variant="outlined"
               >
-                <h1 style={{ fontWeight: "10px", fontSize: "35px", padding: '15px', WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>Services</h1>
+                <h1 style={{ fontWeight: "10px", fontSize: "35px", padding: '15px', WebkitTextFillColor: 'black', }}>Services</h1>
                 <hr style={{width: '65%', border: 'double', color: 'green', margin: "auto", marginBottom: '15px'}}/>
                 <div>
                   <img src={logoOne} alt="website logo of lotus" style={{ width: '50%', margin: "auto",}} />
                 </div>
                 <hr style={{width: '65%', border: 'double', color: 'green', margin: "auto", marginTop: '15px', marginBottom: '15px'}}/>
-                <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', color: 'black' }}>
+                <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextFillColor: 'black', color: 'black' }}>
                     <b>Modalities</b>
                 </Typography>
                 <Typography sx={{ fontSize: "20px", color: 'black' }}>
                     <b>Includes: </b>
                 </Typography>
-                <Typography sx={{ fontSize: "15px", color: 'black', fontStyle: 'italic' }}>
+                <Typography sx={{ fontSize: "13px", color: 'black', fontStyle: 'italic' }}>
                     <b>( Sports Massage, Shiatsu Massage, and Reflexology )</b>
                 </Typography>
-                <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
+                <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextFillColor: 'black', }}>
                     <b>Chair Massage</b>
                 </Typography>
-                <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
+                <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextFillColor: 'black', }}>
                     <b>Foot Massage</b>
                 </Typography>
-                <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextStroke: '.75px #1fc600', WebkitTextFillColor: 'black', }}>
+                <Typography sx={{ fontWeight: "10px", fontSize: "30px", WebkitTextFillColor: 'black', }}>
                     <b>Add-ons</b>
                 </Typography>
                 <div style={{ display: "block", margin: "auto"}}>

@@ -1,7 +1,7 @@
 {
   "name": "nghi-yo-massage",
   "version": "0.1.0",
-  "homepage": "https://jayP308.github.io/nghi-yo-massage/",
+  "homepage": "http://nghi-yo-massage.io/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

@@ -195,7 +195,7 @@ const Home = () => {
                               <Box
                               style={{
                                   margin: 'auto',
-                                  height: 425,
+                                  height: 465,
                                   display: 'block',
                                   maxWidth: 800,
                                   overflow: 'hidden',

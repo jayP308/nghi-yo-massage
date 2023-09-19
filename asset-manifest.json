@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/nghi-yo-massage/static/css/main.00e09355.css",
-    "main.js": "/nghi-yo-massage/static/js/main.c43893b2.js",
+    "main.js": "/nghi-yo-massage/static/js/main.966690e5.js",
     "static/media/updated-logo4.png": "/nghi-yo-massage/static/media/updated-logo4.f6aa54117a9d94804984.png",
     "static/media/massage-therapy.jpg": "/nghi-yo-massage/static/media/massage-therapy.0c09d753902cfee31d35.jpg",
     "static/media/instagram-logo.png": "/nghi-yo-massage/static/media/instagram-logo.0963b7a591227164566c.png",
     "static/media/divider.png": "/nghi-yo-massage/static/media/divider.0ce03c03ea69ab55e3be.png",
     "index.html": "/nghi-yo-massage/index.html",
     "main.00e09355.css.map": "/nghi-yo-massage/static/css/main.00e09355.css.map",
-    "main.c43893b2.js.map": "/nghi-yo-massage/static/js/main.c43893b2.js.map"
+    "main.966690e5.js.map": "/nghi-yo-massage/static/js/main.966690e5.js.map"
   },
   "entrypoints": [
     "static/css/main.00e09355.css",
-    "static/js/main.c43893b2.js"
+    "static/js/main.966690e5.js"
   ]
 }

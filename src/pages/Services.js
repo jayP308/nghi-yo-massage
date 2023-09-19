@@ -8,7 +8,6 @@ import logoOne from "../assets/images/updated-logo4.png";
 import dividerImg from '../assets/images/divider.png';
 
 
-
  const Services = () => {
   return (
     <CssVarsProvider>

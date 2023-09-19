@@ -27,3 +27,19 @@ body {
     background-color:rgba(190, 190, 161, 0.699);
   
 }
+
+@media screen and (min-device-width: 320px)
+    and (max-device-width: 480px) {
+    body {
+        background-image: url('./assets/images/massage-therapy.jpg');
+        background-repeat: none;
+         background-size: cover;
+        background-attachment: fixed;
+    }
+    .App {
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-color: rgba(10, 92, 51, 0.699);
+        background-color:rgba(190, 190, 161, 0.699);
+    } 
+}

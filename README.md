@@ -24,7 +24,6 @@ Github Repository Link:
 
 https://github.com/jayP308/nghi-yo-massage
 
-
 ## Contributors
 Junnel R. Padilla, ChatGPT, StackOverflow
   

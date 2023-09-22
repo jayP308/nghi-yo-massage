@@ -43,3 +43,69 @@ body {
         background-color:rgba(190, 190, 161, 0.699);
     } 
 }
+
+
+@media screen and (min-device-width: 485px)
+    and (max-device-width: 840px) {
+    body {
+        background-image: url('./assets/images/massage-therapy.jpg');
+        background-repeat: none;
+         background-size: cover;
+        background-attachment: fixed;
+    }
+    .App {
+        border-left-width: 20px;
+        border-right-width: 20px;
+        border-color: rgba(10, 92, 51, 0.699);
+        background-color:rgba(190, 190, 161, 0.699);
+    } 
+}
+
+@media screen and (min-device-width: 840px)
+    and (max-device-width: 1024px) {
+    body {
+        background-image: url('./assets/images/massage-therapy.jpg');
+        background-repeat: none;
+         background-size: cover;
+        background-attachment: fixed;
+    }
+    .App {
+        border-left-width: 20px;
+        border-right-width: 20px;
+        border-color: rgba(10, 92, 51, 0.699);
+        background-color:rgba(190, 190, 161, 0.699);
+    } 
+}
+
+@media screen and (min-device-width: 1024px)
+    and (max-device-width: 1200px) {
+    body {
+        background-image: url('./assets/images/massage-therapy.jpg');
+        background-repeat: none;
+         background-size: cover;
+        background-attachment: fixed;
+    }
+    .App {
+        border-left-width: 30px;
+        border-right-width: 30px;
+        border-color: rgba(10, 92, 51, 0.699);
+        background-color:rgba(190, 190, 161, 0.699);
+    } 
+}
+
+@media screen and (min-device-width: 1200px)
+    and (max-device-width: 1598px) {
+    body {
+        background-image: url('./assets/images/massage-therapy.jpg');
+        background-repeat: none;
+         background-size: cover;
+        background-attachment: fixed;
+    }
+    .App {
+        border-left-width: 50px;
+        border-right-width: 50px;
+        border-color: rgba(10, 92, 51, 0.699);
+        background-color:rgba(190, 190, 161, 0.699);
+    } 
+}
+

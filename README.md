@@ -34,3 +34,6 @@ This project is licensed under [MIT](https://opensource.org/licenses/MIT)
 * Name: Junnel R. Padilla
 * Github: https://github.com/jayP308
 * LinkedIn: https://www.linkedin.com/in/jp-padilla-038854251/
+
+Follow me on instagram and send me a DM for any questions!
+* Instagram: https://www.instagram.com/jeeeeppeee/

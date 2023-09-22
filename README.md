@@ -35,5 +35,6 @@ This project is licensed under [MIT](https://opensource.org/licenses/MIT)
 * Github: https://github.com/jayP308
 * LinkedIn: https://www.linkedin.com/in/jp-padilla-038854251/
 
-Follow me on instagram and send me a DM for any questions!
+Follow my social media for more updates!
 * Instagram: https://www.instagram.com/jeeeeppeee/
+* Twitter: https://twitter.com/jayP308

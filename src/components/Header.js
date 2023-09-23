@@ -55,20 +55,6 @@ const Header = () => {
                 Massage Types  |
                 </Button>
                 <Button
-                href="#social-media"
-                style={{
-                    fontFamily: 'monospace',
-                    margin: 'auto',
-                    fontWeight: "10px", 
-                    fontSize: "13px", 
-                    WebkitTextStroke: '.75px #1fc600', 
-                    WebkitTextFillColor: 'black',
-                    border: 'none',
-                }}
-                >
-                Contact  |
-                </Button>
-                <Button
                  href="#services"
                  style={{
                     fontFamily: 'monospace',
@@ -82,7 +68,21 @@ const Header = () => {
                     textDecoration: 'none'
                 }}
                 >
-                Services
+                Services  |
+                </Button>
+                <Button
+                href="#social-media"
+                style={{
+                    fontFamily: 'monospace',
+                    margin: 'auto',
+                    fontWeight: "10px", 
+                    fontSize: "13px", 
+                    WebkitTextStroke: '.75px #1fc600', 
+                    WebkitTextFillColor: 'black',
+                    border: 'none',
+                }}
+                >
+                Contact
                 </Button>
             </div>
 
@@ -138,21 +138,6 @@ const Header = () => {
                 Massage Types  |
                 </Button>
                 <Button
-                href="#social-media"
-                style={{
-                    fontFamily: 'monospace',
-                    padding: '7px',
-                    marginRight: '20px',
-                    fontWeight: "10px", 
-                    fontSize: "30px", 
-                    WebkitTextStroke: '.75px #1fc600', 
-                    WebkitTextFillColor: 'black',
-                    border: 'none',
-                }}
-                >
-                Contact  |
-                </Button>
-                <Button
                  href="#services"
                  style={{
                     fontFamily: 'monospace',
@@ -166,8 +151,24 @@ const Header = () => {
                     textDecoration: 'none'
                 }}
                 >
-                Services
+                Services  |
                 </Button>
+                <Button
+                href="#social-media"
+                style={{
+                    fontFamily: 'monospace',
+                    padding: '7px',
+                    marginRight: '20px',
+                    fontWeight: "10px", 
+                    fontSize: "30px", 
+                    WebkitTextStroke: '.75px #1fc600', 
+                    WebkitTextFillColor: 'black',
+                    border: 'none',
+                }}
+                >
+                Contact
+                </Button>
+                
             </div>
 
             </div>
